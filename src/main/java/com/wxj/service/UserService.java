@@ -4,7 +4,7 @@ import com.wxj.pojo.User;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+//线上修改了
 public interface UserService {
     //新增用户
     public void add(User user);

@@ -17,6 +17,7 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    //小刘修改了
     @GetMapping("/")
     public String findAll(Model model){
         List<User> userList = userService.findAll();
